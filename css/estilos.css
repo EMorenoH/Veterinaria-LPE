@@ -89,6 +89,10 @@ body {
 	text-align: center;
 }
 
+.carousel__elemento a{
+	color: #497E4E;
+}
+
 .carousel__indicadores .glider-dot {
 	display: block;
 	width: 30px;
@@ -137,46 +141,59 @@ body {
 header {
 	width:100%;
 }
- 
+
 header nav {
 	width:90%;
 	max-width:1000px;
 	margin:20px auto;
 	background:#497E4E;
 }
- 
+
 .menu_bar {
 	display:none;
 }
- 
+
 header nav ul {
 	overflow:hidden;
 	list-style:none;
 }
- 
+
+
+
 header nav ul li {
 	float:left;
 }
- 
+
+header nav ul li ul {
+	position: absolute;
+}
+
 header nav ul li a {
 	color:#fff;
 	padding:20px;
 	display:block;
 	text-decoration:none;
 }
+
+
  
+
 header nav ul li span {
 	margin-right:10px;
 }
- 
+
+
+
 header nav ul li a:hover {
 	background:#037E8C;
 }
- 
+
+
+
 section {
 	padding:20px;
 }
- 
+
 @media screen and (max-width:800px ) {
 	header nav {
 		width:80%;
@@ -186,12 +203,15 @@ section {
 		position: fixed;
 	}
  
+
+
 	header nav ul li {
 		display:block;
 		float:none;
 		border-bottom:1px solid rgba(255,255,255, .3);
 	}
- 
+
+
 	.menu_bar {
 		display:block;
 		width:100%;
