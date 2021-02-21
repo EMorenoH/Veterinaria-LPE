@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -7,7 +8,7 @@ body {
 	color: #497E4E;
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
-	/*display: flex; */
+	/*display: flex;*/ 
 	align-items: center;
 }
 
@@ -17,7 +18,7 @@ body {
 	margin: auto;
 }
 
-/* --- --- CONTENEDOR PRINCIPAL --- --- */
+/* --- --- CONTENEDOR PRINCIPAL --- ---*/ 
 
 .contenido-principal {
 	margin-bottom: 50px;
@@ -47,7 +48,7 @@ body {
 	color: #CFCFCF;
 }
 
-/* --- --- CAROUSEL --- --- */
+/* --- --- CAROUSEL --- ---*/
 .carousel__contenedor {
 	position: relative;
 }
@@ -164,9 +165,34 @@ header nav ul li {
 	float:left;
 }
 
-header nav ul li ul {
-	position: absolute;
-}
+
+
+
+
+/* --- --- P  R  U  E  B  A  S      I  N  I  C  I  O --- --- */
+
+
+/*
+	header nav ul li ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+		margin-left: 100px;
+		position: absolute;
+	}
+
+	header nav ul li ul li a:hover {
+		display: ;
+		float: ;
+		background:#037E8C;
+		position: relative;
+	}	
+
+
+/* --- --- P  R  U  E  B  A  S      F  I  N --- --- */
+
+
+
 
 header nav ul li a {
 	color:#fff;
@@ -212,6 +238,27 @@ section {
 	}
 
 
+
+
+
+/*
+	header nav ul li ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+		margin-left: 100px;
+		position: absolute;
+	}
+
+	header nav ul li ul li a:hover {
+	background:#037E8C;
+	position: relative;
+	}	
+
+*/
+
+
+
 	.menu_bar {
 		display:block;
 		width:100%;
@@ -236,6 +283,23 @@ section {
 		font-size:40px;
 	}
 }
+
+
+	header nav ul li ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+		margin-left: 100px;
+		position: absolute;
+	}
+
+	header nav ul li ul a:hover {
+	background:#037E8C;
+	position: relative;
+	}	
+
+
+
 
 /* --- --- MENU FIN --- --- */
 
